@@ -34,3 +34,13 @@ width = float(input("Ingresa el ancho del rectangulo: "))
 a = length * width
 perimetro = 2*(length + width)
 print("El area del rectangulo es de",a,"unidades cuadradas y su perimetro es de",perimetro,"unidades")
+
+#7. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) 
+# and circumference (c = 2 x pi x r) where pi = 3.14.
+radio = float(input("Ingresa el radio del circulo: "))
+pi = 3.14
+area_cir = pi * radio * radio
+perimeter_cir = 2 * pi *radio
+print("El area del circulo es de",area_cir,"unidades cuadradas y su perimetro es de",perimeter_cir,"unidades")
+
+#8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
