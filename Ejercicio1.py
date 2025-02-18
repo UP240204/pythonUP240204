@@ -16,4 +16,13 @@ print(type(complejo))
 base = float(input("Ingresa el valor de la base: "))
 altura = float(input("Ingresa el valor de la altura: "))
 area = 0.5 * base * altura
-print("El área es de:",area,"unidades cuadradas")
+print("El área del triangulo es de:",area,"unidades cuadradas")
+
+#Write a script that prompts the user to enter side a, 
+# side b, and side c of the triangle. Calculate the perimeter 
+# of the triangle (perimeter = a + b + c).
+side_a = float(input("Ingresa el valor del primer lado: "))
+side_b = float(input("Ingresa el valor del segundo lado: "))
+side_c = float(input("Ingresa el valor del tercer lado: "))
+perimeter = side_a + side_b + side_c
+print("El perimetro del triangulo es de",perimeter,"unidades")
