@@ -43,4 +43,21 @@ area_cir = pi * radio * radio
 perimeter_cir = 2 * pi *radio
 print("El area del circulo es de",area_cir,"unidades cuadradas y su perimetro es de",perimeter_cir,"unidades")
 
-#8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+#8. Calculate the slope, x-intercept and y-intercept of y = 2x -2.
+m = 2
+b = -2
+x_intercept = -b / m
+print("Pendiente (m):",m)
+print("Intersección en Y (b):",b)
+print("Intersección en X:",x_intercept)
+
+#9. Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10).
+import math
+x_1 = 2
+y_1 = 2
+x_2 = 6
+y_2 = 10
+pendiente = ((y_2)-(y_1))/((x_2)-(x_1))
+euclides = math.sqrt((x_2 - x_1) ** 2 + (y_2 - y_1) ** 2)
+print("La pendiente es",pendiente)
+print("La distancia de Euclidiana es de",euclides)
