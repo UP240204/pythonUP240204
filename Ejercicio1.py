@@ -73,6 +73,22 @@ else:
 #11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
 x_valor = float(input("Ingresa un valor para X: "))
 y_valor = (x_valor**2) + 6*x_valor + 9
-print("De la ecuación (y=(x**2)+6x+9) para que y sea",y_valor,"x tiene que ser",x_valor)
+print("De la ecuación y=(x**2)+6x+9 para que y sea",y_valor,"x tiene que ser",x_valor)
 
 #12. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+word_1 = "python"
+word_2 = "dragon"
+length_1 = len("python")
+length_2 = len("dragon")
+print("La longitud de",word_1,"es",length_1)
+print("La longitud de",word_2,"es",length_2)
+comparación = bool(length_1>length_2)
+print("¿La palabra 'python' es más larga que 'dragon'?",comparación)
+
+#13. Use and operator to check if 'on' is found in both 'python' and 'dragon'.
+in_word_1 = bool("on" in word_1)
+in_word_2 = bool("on" in word_2)
+both_words = in_word_1 and in_word_2
+print("¿El 'on' esta en ambas palabras?",both_words)
+
+#14. I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
