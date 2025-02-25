@@ -71,3 +71,8 @@ else:
     print("La segunda pendiente es mayor")
 
 #11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+x_valor = float(input("Ingresa un valor para X: "))
+y_valor = (x_valor**2) + 6*x_valor + 9
+print("De la ecuación (y=(x**2)+6x+9) para que y sea",y_valor,"x tiene que ser",x_valor)
+
+#12. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
