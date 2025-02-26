@@ -92,3 +92,8 @@ both_words = in_word_1 and in_word_2
 print("¿El 'on' esta en ambas palabras?",both_words)
 
 #14. I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+sentence = "I hope this course is not full of jargon"
+jargon = bool("jargon" in sentence)
+print("¿La palabra 'jargon' esta en la oración?",jargon)
+
+#15. There is no 'on' in both dragon and python.
