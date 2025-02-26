@@ -10,33 +10,27 @@ print(type(height))
 complejo = 3+8j
 print(type(complejo)) 
 
-#4. Write a script that prompts the user to enter base 
-# and height of the triangle and calculate an area of 
-# this triangle (area = 0.5 x b x h).
+#4. Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
 base = float(input("Ingresa el valor de la base: "))
 altura = float(input("Ingresa el valor de la altura: "))
 area = 0.5 * base * altura
 print("El área del triangulo es de",area,"unidades cuadradas")
 
-#5. Write a script that prompts the user to enter side a, 
-# side b, and side c of the triangle. Calculate the perimeter 
-# of the triangle (perimeter = a + b + c).
+#5. Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
 side_a = float(input("Ingresa el valor del primer lado: "))
 side_b = float(input("Ingresa el valor del segundo lado: "))
 side_c = float(input("Ingresa el valor del tercer lado: "))
 perimeter = side_a + side_b + side_c
 print("El perimetro del triangulo es de",perimeter,"unidades")
 
-#6. Get length and width of a rectangle using prompt. Calculate 
-# its area (area = length x width) and perimeter (perimeter = 2 x (length + width)).
+#6. Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width)).
 length = float(input("Ingresa el largo del rectangulo: "))
 width = float(input("Ingresa el ancho del rectangulo: "))
 a = length * width
 perimetro = 2*(length + width)
 print("El area del rectangulo es de",a,"unidades cuadradas y su perimetro es de",perimetro,"unidades")
 
-#7. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) 
-# and circumference (c = 2 x pi x r) where pi = 3.14.
+#7. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
 radio = float(input("Ingresa el radio del circulo: "))
 pi = 3.14
 area_cir = pi * radio * radio
@@ -91,3 +85,28 @@ print("¿El 'on' no esta en 'dragon' y 'python'?","on" not in "dragon" and "on" 
 print(str(float(len("python"))))
 
 #17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?.
+numero = int(input("Ingresa un numero: "))
+if numero % 2 == 0:
+    print(numero,"es un numero par")
+else:
+    print(numero,"es un numero impar")
+
+#18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+ea = 7//3 == int(2.7)
+print("¿La division de 7 entre 3 es igual a 2.7?",ea)
+
+#19. Check if type of '10' is equal to type of 10.
+ae = type("10") == type(10)
+print("¿El tipo de '10' es igual al tipo de 10?",ae)
+
+#20. Check if int('9.8') is equal to 10.
+nel = int(9.8) == 10
+print("¿'9.8' es igual a 10?",nel)
+
+#21. Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?.
+horas = int(input("¿Cuantas horas se trabajaste en la semana? "))
+tarifa = float(input("¿Cuanto cobras la hora? "))
+salario = horas * tarifa
+print("Tu pago semanal es de $",salario,"pesos mexicanos")
+
+#22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years.
