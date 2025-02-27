@@ -110,3 +110,13 @@ salario = horas * tarifa
 print("Tu pago semanal es de $",salario,"pesos mexicanos")
 
 #22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years.
+años = int(input("Ingresa tu edad: "))
+segundos = años * 365 * 24 * 60 * 60
+print("Tu has vivido aproximandamente por",segundos,"segundos")
+
+#23. Write a Python script that displays the following table.
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
