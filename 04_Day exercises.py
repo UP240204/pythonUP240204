@@ -23,3 +23,41 @@ print(company)
 #5. Print the length of the company string using len() method and print().
 lenght = len(company)
 print("La longitud de 'Coding For All' es de",lenght)
+
+#6. Change all the characters to uppercase letters using upper() method.
+print(company.upper())
+
+#7. Change all the characters to lowercase letters using lower() method.
+print(company.lower())
+
+#8. Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
+#9. Cut(slice) out the first word of Coding For All string.
+print(company[7:14])
+
+#10. Check if Coding For All string contains a word Coding using the method index, find or other methods.
+print(company.index('Coding'))
+print("¿'Coding For All' contiene 'Coding'?",'Coding' in company)
+
+#11. Replace the word coding in the string 'Coding For All' to Python.
+print(company.replace('Coding','Python'))
+
+#12. Change Python for Everyone to Python for All using the replace method or other methods.
+chicharito = 'Python For All'
+print(chicharito.replace('Python','Everyone'))
+
+#13. Split the string 'Coding For All' using space as the separator (split()).
+print(company.split())
+
+#14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(companies.split(', '))
+
+#15. What is the character at index 0 in the string Coding For All.
+print("El carácter en el índice 0 en la cadena 'Coding For All' es",company[0])
+
+#16. What is the last index of the string Coding For All.
+print("El último índice de la cadena 'Coding For All' es",company.rindex('l'))
