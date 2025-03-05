@@ -61,3 +61,35 @@ print("El carácter en el índice 0 en la cadena 'Coding For All' es",company[0]
 
 #16. What is the last index of the string Coding For All.
 print("El último índice de la cadena 'Coding For All' es",company.rindex('l'))
+
+#17. What character is at index 10 in "Coding For All" string.
+print("El carácter en el índice 10 en la cadena 'Coding For All' es",company[10],"un espacio")
+
+#18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
+print("La abreviatura de 'Python For All' es",chicharito[0] + chicharito[7] + chicharito[11])
+
+#19. Create an acronym or an abbreviation for the name 'Coding For All'.
+print("La abreviatura de 'Coding For All' es",company[0] + company[7] + company[11])
+
+#20. Use index to determine the position of the first occurrence of C in Coding For All.
+print("El índice en donde esta la posición de la primera aparición de C en 'Coding For All' es",company.index('C'))
+
+#21. Use index to determine the position of the first occurrence of F in Coding For All.
+print("El índice en donde esta la posición de la primera aparición de F en 'Coding For All' es",company.index('F'))
+
+#22. Use rfind to determine the position of the last occurrence of l in Coding For All People.
+konan_big = 'Coding For All People'
+print("La posición de la última aparición de l en 'Coding For All People' es",konan_big.rfind('l'))
+
+#23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
+eeaa = 'You cannot end a sentence with because because because is a conjunction'
+print("La posición de la primera aparición de 'because' en 'You cannot end a sentence with because because because is a conjunction' es",eeaa.index('because')) #31
+
+#24. Use rindex to find the position of the last occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
+print("La posición de la última aparición de 'because' en 'You cannot end a sentence with because because because is a conjunction' es",eeaa.rindex('because')) #47
+
+#25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
+print(eeaa[0:30] + eeaa[54:71])
+
+#26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
+print("La posición de la primera aparición de 'because' en 'You cannot end a sentence with because because because is a conjunction' es",eeaa.find('because')) #31
