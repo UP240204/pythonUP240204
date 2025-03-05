@@ -93,3 +93,38 @@ print(eeaa[0:30] + eeaa[54:71])
 
 #26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
 print("La posición de la primera aparición de 'because' en 'You cannot end a sentence with because because because is a conjunction' es",eeaa.find('because')) #31
+
+#27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'.
+print(eeaa[0:30] + eeaa[54:71])
+
+#28. Does ''Coding For All' start with a substring Coding?
+print("¿'Coding For All' comienza con una subcadena 'Coding'?",company.startswith('Coding'))
+
+#29. Does 'Coding For All' end with a substring coding?
+print("¿'Coding For All' termina con una subcadena 'coding'?",company.endswith('coding'))
+
+#30. '   Coding For All      ', remove the left and right trailing spaces in the given string.
+company_space = '   Coding For All      '
+print(company_space[3:17])
+
+#31. Which one of the following variables return True when we use the method isidentifier(): '30DaysOfPython' o 'thirty_days_of_python'.
+changi = '30DaysOfPython'
+chuyita = 'thirty_days_of_python'
+print("¿Para la variable '30DaysOfPython' devuelve Verdadero cuando usamos el método isidentifier()",changi.isidentifier())
+print("¿Para la variable 'thirty_days_of_python' devuelve Verdadero cuando usamos el método isidentifier()",chuyita.isidentifier())
+
+#32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+chido = ' '.join(python_libraries)
+print(chido)
+
+#33. Use the new line escape sequence to separate the following sentences.
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+#34. Use a tab escape sequence to write the following lines.
+print("Name\t\tAge\tCountry\t\tCity\nOctavio\t\t18\tMéxico\t\tAguascalientes")
+
+#35. Use the string formatting method to display the following:
+radio = 10
+area = 3.14 * radio ** 2
+print('El área del circulo con radio {} son {} metros cuadrados.'.format(radio,area))
