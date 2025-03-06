@@ -128,3 +128,14 @@ print("Name\t\tAge\tCountry\t\tCity\nOctavio\t\t18\tMéxico\t\tAguascalientes")
 radio = 10
 area = 3.14 * radio ** 2
 print('El área del circulo con radio {} son {} metros cuadrados.'.format(radio,area))
+
+#36. Make the following using string formatting methods:
+a = 8
+b = 6
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b)) #dos decimales depsues del punto
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
