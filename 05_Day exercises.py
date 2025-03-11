@@ -131,4 +131,17 @@ print("La comparación es:",comparacion)
 
 #1. Find the middle country(ies) in the countries list.
 import COUNTRIES as p
+paises = p.countries
+pais_middle = (len(paises))//2 #96
+print("Los paises de en medio de la lista son",paises[95],"y",paises[96])
 
+#2. Divide the countries list into two equal lists if it is even if not one more country for the first half.
+first_list = paises[:96]
+second_list = paises[96:]
+print("Lista 1:",first_list)
+print("Lista 2:",second_list)
+
+#3. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+p.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+p1, p2, p3, * escandinavos = p.countries
+print("Los paises escandinavos son", escandinavos)
