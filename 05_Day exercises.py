@@ -130,3 +130,5 @@ print("El rango de edades es de",rango,"años.")
 print("La comparación es:",comparacion)
 
 #1. Find the middle country(ies) in the countries list.
+import COUNTRIES as p
+
