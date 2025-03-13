@@ -1,4 +1,3 @@
-#LEVEL 1
 #1. Create an empty tuple.
 empty_tuple = ()
 
