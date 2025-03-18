@@ -10,5 +10,9 @@ it_companies.update(['Mercedes','BMW','NASA'])
 print(it_companies)
 
 #4. Remove one of the companies from the set it_companies.
+it_companies.pop()
+print(it_companies)
 
 #5. What is the difference between remove and discard.
+    #El 'remove()' elimina el elemento pero si el elemento no existe, lanza un error;
+    #mientras tanto el 'discard()' elimina el elemento pero si el elemento no existe, no lanza el error.
