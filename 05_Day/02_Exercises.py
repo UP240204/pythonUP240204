@@ -19,7 +19,16 @@ print("El rango de edades es de",rango,"años.")
 print("La comparación es:",comparacion)
 
 #1. Find the middle country(ies) in the countries list.
-import COUNTRIES as p
+#Si tu archivo a importar no se encuentra en la misma carpeta, puedes hacerlo de la siguiente manera:
+import os
+import importlib.util
+ruta = os.path.abspath(os.path.join(os.path.dirname(__file__),'..', 'COUNTRIES.py'))
+spec = importlib.util.spec_from_file_location("COUNTRIES", ruta)
+p = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(p)
+
+
+#import COUNTRIES as p
 paises = p.countries
 pais_middle = (len(paises))//2 #96
 print("Los paises de en medio de la lista son",paises[95],"y",paises[96])
@@ -34,3 +43,7 @@ print("Lista 2:",second_list)
 p.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 p1, p2, p3, * escandinavos = p.countries
 print("Los paises escandinavos son", escandinavos)
+
+
+#REVISADO
+print("Revisado")
