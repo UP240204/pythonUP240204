@@ -24,3 +24,4 @@ print("¿Cuál es la diferencia simétrica entre A y B?",A.symmetric_difference(
 #7. Delete the sets completely.
 del A
 del B
+del C
