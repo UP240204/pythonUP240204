@@ -24,3 +24,8 @@ student = {
         'zipcode':'20326'
         }
 }
+
+#4. Get the length of the student dictionary.
+print("La longitud del diccionario es de:",len(student))
+
+#5. Get the value of skills and check the data type, it should be a list.
