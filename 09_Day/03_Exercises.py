@@ -21,3 +21,21 @@ else:
     print("No estan las skills en el diccionario")
 
 
+if 'Python' in person['skills']:
+    print("Python esta en las skills, mira",person['skills'])
+else:
+    print("No esta Python rey")
+
+
+if 'JavaScript' in person['skills'] and 'React' in person['skills']:
+    print("Es desarrollador front-end")
+elif 'Node' in person['skills'] and 'Python' in person['skills'] and 'MongoDB' in person['skills']:
+    print("Es desarrollador back-end")
+elif 'React' in person['skills'] and 'Node' in person['skills'] and 'MongoDB' in person['skills']:
+    print("Es desarrolador full-stack")
+else:
+    print("Titulo desconocido")
+
+
+if 'Finland' in person['country'] and person['is_marred'] is True:
+    print("Asabeneh Yetayeh reside en Finlandia. Está casado.")
