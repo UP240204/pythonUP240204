@@ -29,3 +29,27 @@ student = {
 print("La longitud del diccionario es de:",len(student))
 
 #5. Get the value of skills and check the data type, it should be a list.
+print("El valor de skills es",student['skills'])
+print("El tipo de dato de skills es",type(student['skills']))
+
+#6. Modify the skills values by adding one or two skills.
+student['skills'].append('soccer')
+student['skills'].append('soy una 🔫 para todo')
+print(student)
+
+#7. Get the dictionary keys as a list.
+print("Las llaves del diccionario son",student.keys())
+
+#8. Get the dictionary values as a list.
+print("Los valores del diccionario son",student.values())
+
+#9. Change the dictionary to a list of tuples using items() method.
+print(student.items())
+
+#10. Delete one of the items in the dictionary.
+student.popitem()
+print(student)
+
+#11. Delete one of the dictionaries.
+del student['skills']
+print(student)
