@@ -16,3 +16,5 @@ print(it_companies)
 #5. What is the difference between remove and discard.
     #El 'remove()' elimina el elemento pero si el elemento no existe, lanza un error;
     #mientras tanto el 'discard()' elimina el elemento pero si el elemento no existe, no lanza el error.
+
+print("Revisado")

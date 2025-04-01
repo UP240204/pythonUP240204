@@ -25,3 +25,5 @@ print("¿Cuál es la diferencia simétrica entre A y B?",A.symmetric_difference(
 del A
 del B
 del C
+
+print("Revisado")

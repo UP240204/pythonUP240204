@@ -35,3 +35,6 @@ else:
     print("La lista de frutas es:",fruits)
     fruits.append(fruit)
     print("La nueva lista de frutas es:",fruits)
+
+
+print("Revisado")
