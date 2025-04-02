@@ -17,3 +17,6 @@ print("Los numeros pares del 0 al 100 son:",numpar)
 print("La suma de estos numeros pares es",sum(numpar))
 print("Los numeros impares del 0 al 100 son:",numimpar)
 print("La suma de estos numeros impares es",sum(numimpar))
+
+
+print("Revisado")

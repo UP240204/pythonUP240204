@@ -39,4 +39,6 @@ for numero in range(101):
 number = 1
 while number < 101:
     print(number)
-    number = number + 2 
+    number = number + 2
+
+print("Revisado")

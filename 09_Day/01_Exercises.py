@@ -26,3 +26,5 @@ elif one < two:
     print(one,"es menor que",two)
 else:
     print(one,"es igual que",two)
+
+print("Revisado")

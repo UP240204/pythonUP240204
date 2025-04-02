@@ -34,3 +34,5 @@ del food_stuff_lt
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print("¿Estonia es un pais nordico?",'Estonia' in nordic_countries)
 print("¿Islandia es un pais nordico?",'Iceland' in nordic_countries)
+
+print("Revisado")
