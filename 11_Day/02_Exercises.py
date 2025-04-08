@@ -47,3 +47,5 @@ print("Mode:",calculate_mode(lista))
 print("Rango:",calculate_range(lista))
 print("Varianza:",calculate_variance(lista))
 print("Desviacion estandar:",calculate_std(lista))
+
+print("Revisado")

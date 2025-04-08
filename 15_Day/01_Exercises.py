@@ -1,7 +1,7 @@
 #1. Open you python interactive shell and try all the examples covered in this section.
 #------------------------------ERRORES DE PROGRAMACION EN PYTHON 😮‍💨----------------------------------------------
 #                                   SYNTAX ERROR
-print 'andan jugando bien mal mis chivas'
+print 'andan jugando bien mal mis chivas (juegan?)'
 #                                   NAME ERROR
 print(fuga_al_gym)
 #                                   INDEX ERROR
@@ -23,3 +23,5 @@ from math import power
 int('MTR01')
 #                                   ZERO DIVISION ERROR
 division = 1/0
+
+print("Revisado")

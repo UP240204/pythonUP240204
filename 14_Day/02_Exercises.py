@@ -88,3 +88,5 @@ print("Los primeros 10 paises de la lista son:",get_first_ten_countries(countrie
 def get_last_ten_countries (countries):
     return list(map(lambda x:x, countries[-10:]))
 print("Los ultimos 10 paises de la lista son:",get_last_ten_countries(countries))
+
+print("Revisado")

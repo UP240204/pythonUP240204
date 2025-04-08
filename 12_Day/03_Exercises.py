@@ -9,3 +9,5 @@ print(shuffle_list([1,2,3,4,5]))
 def unique_seven_numbers ():
     return random.sample(range(10),7)
 print(unique_seven_numbers())
+
+print("Revisado")

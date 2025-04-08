@@ -31,3 +31,5 @@ slope = lambda x1,y1,x2,y2: (y2 - y1)/(x2 - x1)
 print("La pendiente es de:",slope(1,2,3,6))
 y_intercept = lambda x,y,m: y - m * x
 print("La intercepcion en Y es en:",y_intercept(1,2,2))
+
+print("Revisado")

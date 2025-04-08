@@ -104,3 +104,5 @@ print("La suma de numeros impares del 1 al 9 es:",sum_of_odds(9))
 def sum_of_even (number):
     return sum(i for i in range(number + 1) if i % 2 == 0)
 print("La suma de numeros pares del 1 al 10 es:",sum_of_even(10))
+
+print("Revisado")

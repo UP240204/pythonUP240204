@@ -21,3 +21,5 @@ def generate_colors (item,n):
             color = [(random.randint(0,255),random.randint(0,255),random.randint(0,255)) for _ in range(n)]
     return color
 print(generate_colors('rgb',5))
+
+print("Revisado")
